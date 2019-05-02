@@ -73,7 +73,7 @@ h1 {
 }
 p {
    line-height: 1.5;
-   font-size: 20px;
+   font-size: 1.25rem;
 
 }
 
@@ -180,8 +180,21 @@ h3 {
 }
 
 .heart {
-   color: red;
+   width: 2%;
+   
 }
+
+@media (max-width:760px){
+   
+   .webdesign{
+      font-size: 10px;
+      padding-top: 15px;
+   }
+   
+  
+}
+
+
 /* .fly{
    position: relative;
    top: 80px;
