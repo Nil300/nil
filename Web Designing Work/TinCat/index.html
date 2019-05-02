@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinCat</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Boot CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Boot JS & jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/Web Devlopment/HTML/CSS-My Site/index.html"><img src="images/proicon.png" alt="profile-pic" width="50%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="" onclick="alertmsg()">Web Devlopment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.fiver.com/nil300">Graphic Designer</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1>Meet new and interesting cats near by you.</h1>
+          <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-apple"></i><br> Apple Store
+          </button>
+          <button type="button" class="btn btn-outline-light download-btn"><i class="fab fa-google-play"></i> <br>
+            Google Play</button>
+        </div>
+        <div class="col-lg-6 ">
+          <img class="title-image" src="images/iphone6 cat.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4 icon">
+        <i class="fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even your cat love it.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 icon">
+        <i class="fas fa-bullseye fa-4x "></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the cats, the greatest cats.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 icon">
+        <i class="fas fa-heart fa-4x "></i>
+        <h3>Guaranteed to work</h3>
+        <p>Find the love of your cat's life or your money back.</p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of
+                their life. I think.</h2>
+              <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+              <em>Geny, New York, USA</em>
+            </div>
+        <div class="carousel-item ">
+          <h2>I no longer have to sniff other catss for love. I've found the hottest Corgi on TinCat. Woof.</h2>
+          <img class="testimonial-image" src="images/768px-Circle-icons-profile.svg.png" alt="profile">
+          <em>Bhavesh, Lublin, Poland</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonial-image" src="images/768px-Circle-icons-profile.svg.png" alt="profile">
+          <em>Nizam, London, UK</em>
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <h2>A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your cat.</p>
+    <div class="row">
+      <div class="price-col col-lg-4 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-header rounded">BASIC</h3>
+            <h4 class="card-text">Free</h4>
+            <p class="card-text">No Pirority Listing</p>
+            <p class="card-text">5 Matches Per Day</p>
+            <p class="card-text">10 Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="price-btn btn btn-outline-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="price-col col-lg-4 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-header">STANDARD</h3>
+            <h4 class="card-text">$49 / mo</h4>
+            <p class="card-text">No Pirority Listing</p>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="price-btn btn btn-outline-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="price-col col-lg-4 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-header">PREMIUM</h3>
+            <h4 class="card-text">$99 / mo</h4>
+            <p class="card-text">Pirority Listing</p>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="price-btn btn btn-outline-primary">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="row">
+      <div class="col-lg-12 ">
+        <h3 class="cta-heading">Find the True Love of Your Cat's Life Today..</h3>
+        <button type="button" class="btn btn-outline-light cta-download-btn"><i class="fab fa-apple"></i><br> Apple
+          Store </button>
+        <button type="button" class="btn btn-outline-light cta-download-btn"><i class="fab fa-google-play"></i> <br>
+          Google Play</button>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="row">
+      <div class="col-sm">
+        <i class="social-icon fab fa-facebook fa-2x"></i>
+        <i class="social-icon fab fa-twitter fa-2x"></i>
+        <i class="social-icon fab fa-instagram fa-2x"></i>
+        <i class="social-icon fas fa-envelope fa-2x"></i>
+        <p class="copyright">Created with <img class="heart"
+            src="/Web Devlopment/HTML/CSS-My Site/Images/heart.gif" alt=""> By Nil300. © Copyright 2019 Nirav
+          Surti.</p>
+      </div>
+    </div>
+
+
+  </footer>
+  <script>
+      // alert("I Will Add More Work Soon 😊!");
+      function alertmsg() {
+        alert("I Will Add More Work Soon 😊!");
+      }
+      </script>
+
+
+</body>
+
+</html>
