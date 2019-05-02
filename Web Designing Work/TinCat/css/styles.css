@@ -180,7 +180,7 @@ p{
     padding: 20px 0 0;
  }
 .heart{
-   width: 2%;
+   color: red;
 }
 
 @media (max-width:992px){
